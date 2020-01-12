@@ -1,0 +1,18 @@
+import Head from 'next/Head';
+
+
+const Layout = (props) => {
+	return (
+        <div>
+         <Head>
+             <title>Audiencelogy</title>
+             </Head>
+
+             
+		{props.children}
+	</div>
+    
+)
+    };
+
+export default Layout;
